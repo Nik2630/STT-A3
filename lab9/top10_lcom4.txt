@@ -1,0 +1,12 @@
+Top 10 rows with highest LCOM4 values:
+Project Name                     Package Name             Type Name   LCOM1   LCOM2  LCOM3  LCOM4    LCOM5   YALCOM
+        java         org.apache.commons.lang3            ArrayUtils 70500.0     0.0  376.0  235.0 0.991556 0.454787
+        java         org.apache.commons.lang3           StringUtils 29161.0     0.0  242.0  127.0 0.961100 0.388430
+        java         org.apache.commons.lang3              Validate  1431.0     0.0   54.0   54.0 0.996226 0.925926
+        java    org.apache.commons.lang3.text            StrBuilder 11109.0  7853.0   79.0   47.0 0.889053 0.270588
+        java org.apache.commons.lang3.builder StandardToStringStyle   820.0     0.0   41.0   41.0 1.025000 1.000000
+        java         org.apache.commons.lang3           ObjectUtils  1378.0     0.0   53.0   39.0 0.980769 0.735849
+        java         org.apache.commons.lang3          BooleanUtils  1081.0     0.0   47.0   38.0 0.903727 0.489362
+        java org.apache.commons.lang3.builder         ToStringStyle 10703.0 10528.0   95.0   34.0 0.988601 0.229730
+        java         org.apache.commons.lang3            ClassUtils  2077.0  2074.0   63.0   33.0 0.992898 0.446154
+        java    org.apache.commons.lang3.time       FastDatePrinter  4094.0  3628.0   40.0   31.0 0.980201 0.197917

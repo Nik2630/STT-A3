@@ -1,0 +1,406 @@
+{
+    "__main__": {
+        "bacon": 0,
+        "imports": [
+            "flask",
+            "flask.__main__",
+            "flask.app",
+            "flask.blueprints",
+            "flask.cli",
+            "flask.config",
+            "flask.ctx",
+            "flask.debughelpers",
+            "flask.globals",
+            "flask.helpers",
+            "flask.json",
+            "flask.json.provider",
+            "flask.json.tag",
+            "flask.logging",
+            "flask.sessions",
+            "flask.signals",
+            "flask.templating",
+            "flask.testing",
+            "flask.typing",
+            "flask.views",
+            "flask.wrappers"
+        ],
+        "name": "__main__",
+        "path": null
+    },
+    "cryptography": {
+        "bacon": 2,
+        "imported_by": [
+            "cryptography",
+            "flask.cli"
+        ],
+        "imports": [
+            "cryptography"
+        ],
+        "name": "cryptography",
+        "path": "/home/nikhilesh/miniconda3/lib/python3.12/site-packages/cryptography/__init__.py"
+    },
+    "flask": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "flask",
+            "flask.app",
+            "flask.cli",
+            "flask.ctx",
+            "flask.views",
+            "flask.wrappers"
+        ],
+        "imports": [
+            "flask",
+            "flask.app",
+            "flask.blueprints",
+            "flask.config",
+            "flask.ctx",
+            "flask.globals",
+            "flask.helpers",
+            "flask.json",
+            "flask.signals",
+            "flask.templating",
+            "flask.wrappers"
+        ],
+        "name": "flask",
+        "path": "/home/nikhilesh/acad/stt/lab9/flask/src/flask/__init__.py"
+    },
+    "flask.__main__": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "flask.cli"
+        ],
+        "name": "flask.__main__",
+        "path": "/home/nikhilesh/acad/stt/lab9/flask/src/flask/__main__.py"
+    },
+    "flask.app": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "flask",
+            "flask.cli",
+            "flask.ctx",
+            "flask.globals",
+            "flask.sessions",
+            "flask.templating",
+            "flask.testing"
+        ],
+        "imports": [
+            "flask",
+            "flask.cli",
+            "flask.ctx",
+            "flask.debughelpers",
+            "flask.globals",
+            "flask.helpers",
+            "flask.sessions",
+            "flask.signals",
+            "flask.templating",
+            "flask.testing",
+            "flask.typing",
+            "flask.wrappers"
+        ],
+        "name": "flask.app",
+        "path": "/home/nikhilesh/acad/stt/lab9/flask/src/flask/app.py"
+    },
+    "flask.blueprints": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "flask",
+            "flask.debughelpers"
+        ],
+        "imports": [
+            "flask.cli",
+            "flask.globals",
+            "flask.helpers",
+            "flask.wrappers"
+        ],
+        "name": "flask.blueprints",
+        "path": "/home/nikhilesh/acad/stt/lab9/flask/src/flask/blueprints.py"
+    },
+    "flask.cli": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "flask.__main__",
+            "flask.app",
+            "flask.blueprints",
+            "flask.testing"
+        ],
+        "imports": [
+            "cryptography",
+            "flask",
+            "flask.app",
+            "flask.globals",
+            "flask.helpers"
+        ],
+        "name": "flask.cli",
+        "path": "/home/nikhilesh/acad/stt/lab9/flask/src/flask/cli.py"
+    },
+    "flask.config": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "flask"
+        ],
+        "imports": [
+            "typing_extensions"
+        ],
+        "name": "flask.config",
+        "path": "/home/nikhilesh/acad/stt/lab9/flask/src/flask/config.py"
+    },
+    "flask.ctx": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "flask",
+            "flask.app",
+            "flask.globals"
+        ],
+        "imports": [
+            "flask",
+            "flask.app",
+            "flask.globals",
+            "flask.sessions",
+            "flask.signals",
+            "flask.typing",
+            "flask.wrappers"
+        ],
+        "name": "flask.ctx",
+        "path": "/home/nikhilesh/acad/stt/lab9/flask/src/flask/ctx.py"
+    },
+    "flask.debughelpers": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "flask.app",
+            "flask.templating",
+            "flask.wrappers"
+        ],
+        "imports": [
+            "flask.blueprints",
+            "flask.globals",
+            "flask.wrappers"
+        ],
+        "name": "flask.debughelpers",
+        "path": "/home/nikhilesh/acad/stt/lab9/flask/src/flask/debughelpers.py"
+    },
+    "flask.globals": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "flask",
+            "flask.app",
+            "flask.blueprints",
+            "flask.cli",
+            "flask.ctx",
+            "flask.debughelpers",
+            "flask.helpers",
+            "flask.json",
+            "flask.logging",
+            "flask.templating",
+            "flask.views",
+            "flask.wrappers"
+        ],
+        "imports": [
+            "flask.app",
+            "flask.ctx",
+            "flask.sessions",
+            "flask.wrappers"
+        ],
+        "name": "flask.globals",
+        "path": "/home/nikhilesh/acad/stt/lab9/flask/src/flask/globals.py"
+    },
+    "flask.helpers": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "flask",
+            "flask.app",
+            "flask.blueprints",
+            "flask.cli",
+            "flask.templating",
+            "flask.wrappers"
+        ],
+        "imports": [
+            "flask.globals",
+            "flask.signals",
+            "flask.wrappers"
+        ],
+        "name": "flask.helpers",
+        "path": "/home/nikhilesh/acad/stt/lab9/flask/src/flask/helpers.py"
+    },
+    "flask.json": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "flask",
+            "flask.json.tag",
+            "flask.sessions",
+            "flask.wrappers"
+        ],
+        "imports": [
+            "flask.globals",
+            "flask.json.provider",
+            "flask.wrappers"
+        ],
+        "name": "flask.json",
+        "path": "/home/nikhilesh/acad/stt/lab9/flask/src/flask/json/__init__.py"
+    },
+    "flask.json.provider": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "flask.json"
+        ],
+        "name": "flask.json.provider",
+        "path": "/home/nikhilesh/acad/stt/lab9/flask/src/flask/json/provider.py"
+    },
+    "flask.json.tag": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "flask.sessions"
+        ],
+        "imports": [
+            "flask.json"
+        ],
+        "name": "flask.json.tag",
+        "path": "/home/nikhilesh/acad/stt/lab9/flask/src/flask/json/tag.py"
+    },
+    "flask.logging": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "flask.globals"
+        ],
+        "name": "flask.logging",
+        "path": "/home/nikhilesh/acad/stt/lab9/flask/src/flask/logging.py"
+    },
+    "flask.sessions": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "flask.app",
+            "flask.ctx",
+            "flask.globals",
+            "flask.testing"
+        ],
+        "imports": [
+            "flask.app",
+            "flask.json",
+            "flask.json.tag",
+            "flask.wrappers",
+            "typing_extensions"
+        ],
+        "name": "flask.sessions",
+        "path": "/home/nikhilesh/acad/stt/lab9/flask/src/flask/sessions.py"
+    },
+    "flask.signals": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "flask",
+            "flask.app",
+            "flask.ctx",
+            "flask.helpers",
+            "flask.templating"
+        ],
+        "name": "flask.signals",
+        "path": "/home/nikhilesh/acad/stt/lab9/flask/src/flask/signals.py"
+    },
+    "flask.templating": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "flask",
+            "flask.app"
+        ],
+        "imports": [
+            "flask.app",
+            "flask.debughelpers",
+            "flask.globals",
+            "flask.helpers",
+            "flask.signals"
+        ],
+        "name": "flask.templating",
+        "path": "/home/nikhilesh/acad/stt/lab9/flask/src/flask/templating.py"
+    },
+    "flask.testing": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "flask.app"
+        ],
+        "imports": [
+            "flask.app",
+            "flask.cli",
+            "flask.sessions"
+        ],
+        "name": "flask.testing",
+        "path": "/home/nikhilesh/acad/stt/lab9/flask/src/flask/testing.py"
+    },
+    "flask.typing": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "flask.app",
+            "flask.ctx",
+            "flask.views"
+        ],
+        "name": "flask.typing",
+        "path": "/home/nikhilesh/acad/stt/lab9/flask/src/flask/typing.py"
+    },
+    "flask.views": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "flask",
+            "flask.globals",
+            "flask.typing"
+        ],
+        "name": "flask.views",
+        "path": "/home/nikhilesh/acad/stt/lab9/flask/src/flask/views.py"
+    },
+    "flask.wrappers": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "flask",
+            "flask.app",
+            "flask.blueprints",
+            "flask.ctx",
+            "flask.debughelpers",
+            "flask.globals",
+            "flask.helpers",
+            "flask.json",
+            "flask.sessions"
+        ],
+        "imports": [
+            "flask",
+            "flask.debughelpers",
+            "flask.globals",
+            "flask.helpers",
+            "flask.json"
+        ],
+        "name": "flask.wrappers",
+        "path": "/home/nikhilesh/acad/stt/lab9/flask/src/flask/wrappers.py"
+    },
+    "typing_extensions": {
+        "bacon": 2,
+        "imported_by": [
+            "flask.config",
+            "flask.sessions"
+        ],
+        "name": "typing_extensions",
+        "path": "/home/nikhilesh/miniconda3/lib/python3.12/site-packages/typing_extensions.py"
+    }
+}

@@ -1,0 +1,28 @@
+Fan-In/Fan-Out Analysis from: flask_deps.json
+============================================================
+Module                                   | Fan-In  | Fan-Out
+------------------------------------------------------------
+flask.globals                            | 13      | 4      
+flask.wrappers                           | 10      | 5      
+flask.app                                | 8       | 12     
+flask.helpers                            | 7       | 3      
+flask                                    | 6       | 10     
+flask.signals                            | 6       | 0      
+flask.cli                                | 5       | 5      
+flask.json                               | 5       | 3      
+flask.sessions                           | 5       | 5      
+flask.typing                             | 4       | 0      
+flask.ctx                                | 4       | 7      
+flask.debughelpers                       | 4       | 3      
+flask.templating                         | 3       | 5      
+flask.blueprints                         | 3       | 4      
+flask.json.tag                           | 2       | 1      
+flask.testing                            | 2       | 3      
+flask.config                             | 2       | 1      
+flask.json.provider                      | 2       | 0      
+typing_extensions                        | 2       | 0      
+flask.views                              | 1       | 3      
+flask.logging                            | 1       | 1      
+cryptography                             | 1       | 0      
+flask.__main__                           | 1       | 1      
+__main__                                 | 0       | 21     

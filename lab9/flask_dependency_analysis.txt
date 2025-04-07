@@ -1,0 +1,75 @@
+--- Dependency Analysis Report ---
+Total modules analyzed: 24
+------------------------------
+[Highly Coupled Modules]
+Modules with High Fan-In (>= 7):
+  - flask.globals (Fan-In: 13)
+  - flask.wrappers (Fan-In: 10)
+  - flask.app (Fan-In: 8)
+  - flask.helpers (Fan-In: 7)
+
+Modules with High Fan-Out (>= 7):
+  - __main__ (Fan-Out: 21)
+  - flask.app (Fan-Out: 12)
+  - flask (Fan-Out: 10)
+  - flask.ctx (Fan-Out: 7)
+------------------------------
+[Cyclic Dependencies]
+Found 21 cycle(s):
+  Cycle 1: flask -> flask.app -> flask
+  Cycle 2: flask -> flask.app -> flask.cli -> flask
+  Cycle 3: flask.app -> flask.cli -> flask.app
+  Cycle 4: flask.app -> flask.cli -> flask.globals -> flask.app
+  Cycle 5: flask -> flask.app -> flask.cli -> flask.globals -> flask.ctx -> flask
+  Cycle 6: flask.app -> flask.cli -> flask.globals -> flask.ctx -> flask.app
+  Cycle 7: flask.globals -> flask.ctx -> flask.globals
+  Cycle 8: flask.app -> flask.cli -> flask.globals -> flask.ctx -> flask.sessions -> flask.app
+  Cycle 9: flask.globals -> flask.ctx -> flask.sessions -> flask.json -> flask.globals
+  Cycle 10: flask -> flask.app -> flask.cli -> flask.globals -> flask.ctx -> flask.sessions -> flask.json -> flask.wrappers -> flask
+  Cycle 11: flask.cli -> flask.globals -> flask.ctx -> flask.sessions -> flask.json -> flask.wrappers -> flask.debughelpers -> flask.blueprints -> flask.cli
+  Cycle 12: flask.globals -> flask.ctx -> flask.sessions -> flask.json -> flask.wrappers -> flask.debughelpers -> flask.blueprints -> flask.globals
+  Cycle 13: flask.globals -> flask.ctx -> flask.sessions -> flask.json -> flask.wrappers -> flask.debughelpers -> flask.blueprints -> flask.helpers -> flask.globals
+  Cycle 14: flask.wrappers -> flask.debughelpers -> flask.blueprints -> flask.helpers -> flask.wrappers
+  Cycle 15: flask.wrappers -> flask.debughelpers -> flask.blueprints -> flask.wrappers
+  Cycle 16: flask.globals -> flask.ctx -> flask.sessions -> flask.json -> flask.wrappers -> flask.debughelpers -> flask.globals
+  Cycle 17: flask.wrappers -> flask.debughelpers -> flask.wrappers
+  Cycle 18: flask.globals -> flask.ctx -> flask.sessions -> flask.json -> flask.wrappers -> flask.globals
+  Cycle 19: flask.json -> flask.wrappers -> flask.json
+  Cycle 20: flask.app -> flask.templating -> flask.app
+  Cycle 21: flask.app -> flask.testing -> flask.app
+------------------------------
+[Potentially Unused Modules (Zero Fan-In)]
+Modules with Fan-In = 0:
+  - __main__
+------------------------------
+[Potentially Disconnected Modules]
+All analyzed modules appear reachable from entry points: ['__main__', 'flask'].
+------------------------------
+[Dependency Depth]
+Maximum dependency depth for each module:
+  - __main__: 11
+  - cryptography: 0
+  - flask: 9
+  - flask.__main__: 10
+  - flask.app: 10
+  - flask.blueprints: 10
+  - flask.cli: 9
+  - flask.config: 1
+  - flask.ctx: 11
+  - flask.debughelpers: 9
+  - flask.globals: 8
+  - flask.helpers: 11
+  - flask.json: 11
+  - flask.json.provider: 0
+  - flask.json.tag: 12
+  - flask.logging: 9
+  - flask.sessions: 11
+  - flask.signals: 0
+  - flask.templating: 10
+  - flask.testing: 12
+  - flask.typing: 0
+  - flask.views: 9
+  - flask.wrappers: 10
+  - typing_extensions: 0
+------------------------------
+End of Analysis Report
